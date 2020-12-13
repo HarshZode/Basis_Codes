@@ -11,7 +11,7 @@
 
 int main()
 {
-
+        int a, b;
     // Comments can be done inside the function too!
 
         printf("Hello world! \n");
@@ -25,6 +25,13 @@ int main()
         printf("the value of pi is %.2f \n", 3.1486759);
         printf("the value of pi is %.5f \n", 3.1486759);
 
+        printf("This is My Addition Code which is running.\n");
+        printf("Enter the value of a\n");
+        scanf("%d",&a);
+        printf("Enter the value of b\n");
+        scanf("%d",&b);
+
+        printf("The summation of the values is %d", a+b);
 
 
         return 0;   /*whenever you perform a function out,
@@ -51,7 +58,15 @@ int main()
 
 /*                          GETTING INPUT FROM THE UsER
 
+ We use a function called scanf(). scan f takes the data given by the user.
+ And in this function we have to specify
+ what type of data type is is.
 
+ AND THE MOST IMP THING>
+ & ---> address of. this is used to tell where to store the data .
+
+ by & we store that data and we can use it .
+ DO NOT FORGET TO GIVE THIS.
 
 */
 
