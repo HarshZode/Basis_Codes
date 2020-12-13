@@ -18,8 +18,10 @@ int main()
         printf("My Name is Harsh.\n");
         printf("I have started learning C language!\n");
         printf("%s is awesome person.\n","Harsh");
-        printf("This a test numbered %d \n", 5);
-        printf("the value of pi is %f \n", 3.1486759);
+        printf("This a test numbered %d \n", 5);//%d is used for integers.
+        printf("the value of pi is %f \n", 3.1486759);//%f for real values
+
+
         printf("the value of pi is %.2f \n", 3.1486759);
         printf("the value of pi is %.5f \n", 3.1486759);
 
@@ -35,12 +37,15 @@ int main()
 /* %s <-- this command will create a storage space to store something which is after the , */
 /* This saving can be done multiple times, like do $s twice and give the info to be saved twice as ( "this is $s, and this is $s" , "test1", "test2")*/
 /* %d is used to insert a number in a string. */
-/* %f is used to input a number with decimal places in it. f stands for float */
+/* %f is used to input a number with decimal places/a real value in it. f stands for float */
 
+/*                          TYPES OF VARIABLE
 
+    1. Integer Value     :- ----> int a = 3
+    2. Real Value        :- ----> float a = 9.7
+    3.Character variable :- ----> char a = 'B'
 
-
-
+*/
 
 
 
