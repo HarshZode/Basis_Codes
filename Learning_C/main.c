@@ -29,7 +29,8 @@ int main()
 
         return 0;   /*whenever you perform a function out,
                     you have to return something to the computer,
-                    0 in this case says the function did his job and there's no error.*/
+                    0 in this case says the function did his job and there's no error.
+                    zero means success for the operating system*/
 
 
 }
@@ -48,6 +49,11 @@ int main()
 */
 
 
+/*                          GETTING INPUT FROM THE UsER
+
+
+
+*/
 
 
 
