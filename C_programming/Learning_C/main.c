@@ -70,8 +70,34 @@ int main()
 
 */
 
+/*                          ARATHEMATIC OPERATORS
 
 
+   + --> ADDS
+   - --> SUBTRACTS
+   * --> MULTIPLIES (Note :- While multiplying we not assume that the multiplying operators is already present in the equation. like for ab or a.b for a*b. THIS IS WRONG. THis will throw error.)
+   / --> DIVIDES
+   % --> GIVES REMINDER (EG :- 5%2 gives 1 As Reminder)
+
+   There is no exponential operator (power operators) is C programming language.
+   Like For example 5^4 gives us error.
+   However we can use an in-built function named pow('number','raised to the power').
+   But to use that function we need to include the library called <math.h>
+   ALSO, WE USE %f TO GET THE OUTPUT because at %d it prints 0.
+
+
+                            TYPE CONVERSION
+
+             Arithmetic operations between Different data type
+
+
+                    int and int     --> int
+                    int and float   --> float
+                    float and float --> float
+
+
+
+*/
 
 
 

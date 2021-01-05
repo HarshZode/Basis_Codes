@@ -5,21 +5,23 @@
 
 int main()
 {
-    int physics, chemistry, math ;
-    float total;
-    printf("Enter marks of Physics\n");
-    scanf("%d",&physics);
-    printf("Enter marks of chemistry\n");
-    scanf("%d", &chemistry);
-    printf("Enter marks of maths\n");
-    scanf("%d", &math);
+    float tax, income;
+    tax = 0;
 
-    total = (physics + chemistry+ math)/3;
+    printf("Enter Your Income Amount.\n");
+    scanf("%f", &income);
 
-   if (total <40 || physics <33 || chemistry <33 || math<33){
-    printf("\nYour Total is %f You failed.\n",total);
-   }
-   else {printf("\nYour Total is %f  You passed\n",total);}
+    if (income >= 250000 && income <= 500000){
+        tax+= 0.05*(income - 250000);
+    }
+    if (income>= 500000 && income <= 1000000){
+        tax+= 0.20*(income- 500000);
+    }
+    if (income >=100000){
+        tax+= 0.30*(income-1000000);
+    }
+
+    printf("\nYour total tax to be paid is %f", tax);
 
     return 0;
 }
