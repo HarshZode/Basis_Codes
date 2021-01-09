@@ -7,12 +7,12 @@ int main()
 {
     int number;
     int guess;
-    int nguesses=0;
+    int nguesses=1;
 
     srand(time(0)); //srand is used to initialize the rand function. Time 0 returns time in seconds and in 0 second will give a random number.
     number = rand()%100+1;// rand() is a function which gives you a random number.
     // And %100 + 1 makes the number to be in between 1 - 100.
-    printf("The random number is %d.\n", number);// <-- THIS SHOWS WHAT IS THE RANDOM NUMBER CREATED.
+    //printf("The random number is %d.\n", number);// <-- THIS SHOWS WHAT IS THE RANDOM NUMBER CREATED.
 
     //Keep running the loop until the number is guessed.
 
