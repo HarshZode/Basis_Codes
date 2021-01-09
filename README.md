@@ -1,6 +1,9 @@
 # Basis_Codes
 
-This repository will contain direct project files of different programming languages.
+## This Repository contains notes and Projects of following programming language :-
+### 1) Python
+### 2) C 
 
-This repository currently contain two python files and one C project file.
-These files will be updated here when any changes has to be commited.
+This repository will be modified everyday.
+
+If you also want to contribute you can contact me.
