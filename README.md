@@ -4,6 +4,6 @@
 ### 1) Python
 ### 2) C 
 
-This repository will be modified everyday.
+This repository will be modified later.
 
 If you also want to contribute you can contact me.
