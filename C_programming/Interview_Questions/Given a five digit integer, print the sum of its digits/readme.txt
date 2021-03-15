@@ -1,20 +1,20 @@
-Task
+#Task
 
-Given a five digit integer, print the sum of its digits.
+##Given a five digit integer, print the sum of its digits.
 
-Input Format:-
+#Input Format:-
 
 The input contains a single five digit number, .
 
-Constraints:-
+#Constraints:-
 10000<=n<=99999
 
 
-Output Format
+#Output Format
 
 Print the sum of the digits of the five digit number.
 
-Sample Input:-
+##Sample Input:-
 10564
-Sample Output:-
+##Sample Output:-
 16
